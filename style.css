@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    display: flex;
+  }
+  
+  main {
+    background-color: red;
+    
+  }
+
+  .p5Canvas{
+    
+    background-color: aqua;
+    padding: 50px;
+    
+  }
+  
+  .poema {
+    background-color: blueviolet;
+    width: 200px;
+    height: 500px;
+    overflow: scroll;
+    
+  }
+
+  .poema2 {
+    background-color: rgb(126, 105, 145);
+    width: 200px;
+    height: 500px;
+    overflow: scroll;
+  }
+
+  .poema3 {
+    background-color: rgb(85, 247, 198);
+    width: 200px;
+    height: 500px;
+    overflow: scroll;
+  }
+
+
+  
