@@ -1,43 +1,73 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: #141414;
     display: flex;
+    color: white;
+    font-family: monospace;
+    
   }
   
   main {
     background-color: red;
-    
+   
   }
 
   .p5Canvas{
-    
-    background-color: aqua;
-    padding: 50px;
-    
+    background-color: #0004E0;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .poema {
-    background-color: blueviolet;
+    background-color:#0004E0;
     width: 200px;
-    height: 500px;
+    height: 100vh;
     overflow: scroll;
     
   }
 
   .poema2 {
-    background-color: rgb(126, 105, 145);
+    background-color:#0b770d;
     width: 200px;
-    height: 500px;
+    height: 75vh;
     overflow: scroll;
   }
 
   .poema3 {
-    background-color: rgb(85, 247, 198);
-    width: 200px;
-    height: 500px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 100px;
     overflow: scroll;
+    margin-right: 10px;
   }
 
+  .texto{
+    
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: right;
+  }
 
+ul{
+ color: white;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: left;
   
+  }
+
+  a {
+    color: white;
+    
+  }
